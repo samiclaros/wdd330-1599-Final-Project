@@ -1,0 +1,20 @@
+{
+  "name": "wdd330-1599-final-project",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build --emptyOutDir",
+    "preview": "vite preview",
+    "lint": "eslint .",
+    "format": "prettier --ignore-path ./.gitignore --write \"./**/*.{html,json,js,mjs,css}\""
+  },
+  "devDependencies": {
+    "eslint": "^10.15.0",
+    "eslint-config-prettier": "^10.1.8",
+    "prettier": "^3.10.1",
+    "vite": "^8.4.0"
+  }
+}
